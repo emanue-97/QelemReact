@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
@@ -233,6 +234,7 @@ function App() {
               <div className="logo-mark">Q</div>
               Qelem
             </button>
+            // eslint-disable-next-line jsx-a11y/no-redundant-roles
             <ul
               className={`nav-links ${mobileMenuOpen ? "open" : ""}`}
               id="navLinks"
